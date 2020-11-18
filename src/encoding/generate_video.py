@@ -1,6 +1,8 @@
 # module : video processing support for python
 import ffmpeg
 
+import shutil
+
 # function : generate video file from frames
 def generate_video():
 #     FRAMERATE = 24
@@ -15,4 +17,5 @@ def generate_video():
     )
 #     os.system('ffmpeg -framerate 24 -i ./inframes/frame_%d.png output.mp4')
     
+    shutil.rmtree('./inframes')
     print("Successfully generated video file")
