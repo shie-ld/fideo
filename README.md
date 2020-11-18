@@ -1,2 +1,2 @@
-# file-to-video-new
+# fideo
 Project to convert any file to video file.
