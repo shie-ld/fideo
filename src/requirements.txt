@@ -1,7 +1,0 @@
-bitstring
-Pillow
-glob3
-path.py
-ffmpeg-python
-argparse
-
