@@ -1,6 +1,6 @@
 [![Contributors][contributors-shield]]
 [![Forks][forks-shield]]
-[![Stargazers][stars-shield]]
+[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]]
 [![MIT License][license-shield]]
 
