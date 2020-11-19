@@ -129,14 +129,14 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/sh
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/shie-ld/fideo.svg?style=flat-square
 [contributors-url]: https://github.com/shie-ld/fideo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/shie-ld/fideo.svg?style=flat-square
 [forks-url]: https://github.com/shie-ld/fideo/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/shei-ld/fideo.svg?style=flat-square
 [stars-url]: https://github.com/shie-ld/fideo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/shie-ld/fideo.svg?style=flat-square
 [issues-url]: https://github.com/shie-ld/fideo/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/shie-ld/fideo.svg?style=flat-square
 [license-url]: https://github.com/shie-ld/fideo/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png
