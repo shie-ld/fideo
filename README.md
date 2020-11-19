@@ -1,8 +1,8 @@
-[![Contributors][contributors-shield]][https://github.com/shie-ld/fideo/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/shie-ld/fideo/network/members]
-[![Stargazers][stars-shield]][https://github.com/shie-ld/fideo/stargazers]
-[![Issues][issues-shield]][https://github.com/issues]
-[![MIT License][license-shield]][https://github.com/shie-ld/fideo/blob/main/LICENSE]
+[![Contributors][contributors-shield]]
+[![Forks][forks-shield]]
+[![Stargazers][stars-shield]]
+[![Issues][issues-shield]]
+[![MIT License][license-shield]]
 
 
 
@@ -133,7 +133,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/sh
 [contributors-url]: https://github.com/shie-ld/fideo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/shie-ld/fideo.svg?style=flat-square
 [forks-url]: https://github.com/shie-ld/fideo/network/members
-[stars-shield]: https://img.shields.io/github/stars/shei-ld/fideo.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/shei-ld/fideo?style=flat-square
 [stars-url]: https://github.com/shie-ld/fideo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/shie-ld/fideo.svg?style=flat-square
 [issues-url]: https://github.com/shie-ld/fideo/issues
