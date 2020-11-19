@@ -25,7 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Project Screen Shot][project-screenshot]](https://github.com/shie-ld/fideo/blob/main/src/ss.png)
+
+![Project Screen Shot](../main/src/ss.png)
+
 
 Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from you own personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
 
