@@ -29,14 +29,16 @@
 ![Project Screen Shot](../main/src/ss.png)
 
 
-Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from you own personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
+Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
 
 This project is aimed at:
 * Encoding any file - pdf, image, zip archive, anything to a video
 * Uploading that video to YouTube, as it provides us free umlimited cloud storage of videos
 * Downloading that video anywhere and decoding back it into our original file
 
-So in short, we are going to exploit the unlimited free cloud storage of videos provided by YouTube as our cloud backup of files. This is gonna be an short and interesting project with documentation at every step to help you in understanding what program does, and if you wish, you can change it as you want so it does computing what you wish, not what is decided by me.
+So in short, we are going to exploit the unlimited free cloud storage of videos provided by YouTube as our cloud backup of files. 
+
+This is gonna be an short and interesting project with documentation at every step to help you in understanding what program does, and if you wish, you can change it as you want so it does computing what you wish, not what is decided by me.
 
 ### Built With
 
