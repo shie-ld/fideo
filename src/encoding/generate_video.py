@@ -4,15 +4,15 @@ import ffmpeg
 import shutil
 
 # function : generate video file from frames
-def generate_video():
+def generate_video(OUTPUT, FRAMERATE):
 #     FRAMERATE = 24
     print("Generating video file...")
     
     (
         ffmpeg
         .input('./inframes/frame_%d.png')
-        .filter('fps', fps=25, round='up')
-        .output('output.mp4')
+        .filter('fps', fps=FRAMERATE, round='up')
+        .output(OUTPUT)
         .run()
     )
 #     os.system('ffmpeg -framerate 24 -i ./inframes/frame_%d.png output.mp4')

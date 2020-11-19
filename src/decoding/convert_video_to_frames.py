@@ -1,12 +1,12 @@
 import ffmpeg
 
-def convert_video_to_frames(videopath):
+def convert_video_to_frames(INPUT, FRAMERATE):
     print("Converting video file to respective frames...")
     
     (
         ffmpeg
-        .input('output.mp4')
-        .filter('fps', fps=25, round='down')
+        .input(INPUT)
+        .filter('fps', fps=FRAMERATE, round='down')
         .output('./outframes/frame_%d.png')
         .run()
     )

@@ -1,3 +1,5 @@
+from PIL import Image
+
 def convert_image_to_bits(imagepath):
     image = Image.open(imagepath)
     width, height = image.size

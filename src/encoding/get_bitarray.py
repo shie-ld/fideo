@@ -4,18 +4,18 @@ from bitstring import BitArray
 import os
 
 # function : get binary representation of a file
-def get_bitarray(filepath):
-    print("Converting " + os.path.basename(filepath) + " to binary form...")
+def get_bitarray(INPUT):
+    print("Converting " + os.path.basename(INPUT) + " to binary form...")
     
 #   stores the hexdump of the file in a bitstring.BitArray object
-    bitarray = BitArray(filename = filepath)
+    bitarray = BitArray(filename = INPUT)
 #     print("Type: " ,type(bitarray))
 #     print("Hexdump: ", bitarray)
 
     # removing the gzip file after deriving bitarray from it
-    os.remove(filepath + ".gz")
+    os.remove(INPUT + ".gz")
     
-    print("Successfully converted " + os.path.basename(filepath) + " to binary form")
+    print("Successfully converted " + os.path.basename(INPUT) + " to binary form")
 
 #   returns the binary dump of file
 #     print("Bindump: ", bitarray.bin)
