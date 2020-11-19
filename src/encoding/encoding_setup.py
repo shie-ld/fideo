@@ -19,3 +19,16 @@ def rm_dir_content(dir):
                 shutil.rmtree(file_path)
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
+
+
+# making the setup
+def encoding_setup():
+    # directory to store intermediate frames to make video file 
+    inframes = './inframes'
+
+    # if inframes does not exist, create it
+    if not os.path.exists(inframes):
+        os.makedirs(inframes)
+    
+    # delete anything present in inframes directory
+    rm_dir_content(inframes)

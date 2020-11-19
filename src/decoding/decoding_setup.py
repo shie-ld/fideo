@@ -6,7 +6,7 @@ import os
 import shutil
 
 # making the setup
-def setup():
+def decoding_setup():
     # directory to store intermediate frames to make video file 
     outframes = './outframes'
 
