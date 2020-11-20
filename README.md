@@ -26,7 +26,7 @@
 ## About The Project
 
 
-![Project Screen Shot](../main/src/ss.png)
+![Project Screen Shot](../main/src/image/ss.png)
 
 
 Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
@@ -50,7 +50,9 @@ This is gonna be an short and interesting project with documentation at every st
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Grab a python3 distribution and run the source code with the help of jupyter notebook. Both of these get set up if you install anaconda distribution on your system - recommended way to run the project.
+Grab a python3 distribution and run the source code with the help of jupyter notebook. Both of these get set up if you install anaconda distribution on your system.
+
+Or you can just have python3 installed on your machine and run `main.py` with proper options and arguments right from your terminal.
 
 ### Prerequisites
 
@@ -60,7 +62,7 @@ Grab a python3 distribution and run the source code with the help of jupyter not
 * path.py
 * ffmpeg-python
 
-After installing anaconda, run 
+After installing anaconda, run after jumping to the `src` directory 
 ```sh
 pip install -r requirements.txt
 ```
@@ -76,14 +78,19 @@ git clone https://github.com/shie-ld/fideo.git
 ```sh
 pip install -r requirements.txt
 ```
-3. Run the ipython notebook in `src` folder
+3. Run the ipython notebook in `src` folder 
 
 Don't forget to put in the filename you want to encode in `encode_file` function in the last of the notebook. Check current directory and viola, you have encoded the file to video.
+                                            **OR**  
+                                             
+4. Hit `python3 main.py [options] <arguments>` with [proper options and arguments](#usage) and you are good to go.
+
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+### Using Jupyter Notebook:
 Encode `file.zip` to `OUTFILE.mp4`: 
 ```sh
 encode_file('file.zip')
@@ -94,6 +101,38 @@ decode_file('OUTFILE.mp4', 'OUT.zip')
 ```
 which should come out to be an exact copy of `file.zip`. You can verify that by comparing the two files.
 
+### Using Command Line:
+```sh
+OPTIONS
+-e | --encode : Specify you want to encode a file
+
+-d | --decode : Specify you want to decode a file
+
+-i | --input : Specifying the input file. You can use absolute paths as well as relative paths. 
+               It is a required argument.
+               eg. -i /home/user/file.zip
+               
+-o | --output : Specifying the output file. You can use absolute paths as well as relative paths.
+                Any existing file with same name will be deleted.
+                At encoding time default is OUTFILE.mp4
+                eg. -o /home/user/video.mp4
+                
+-f | --framerate : Specify the encoding and decoding framerate of video. Default is 24.
+                   Must be integer.
+                
+```
+
+So practical usage will look like: 
+```sh
+pip install -r requirements.txt
+
+# encoding
+python3 main.py -e -i infile.zip -f 15 -o video.mp4 
+
+# decoding
+python3 main.py -d -i video.mp4 -f 15 -o outfile.mp4 
+
+```
 
 
 <!-- ROADMAP -->
