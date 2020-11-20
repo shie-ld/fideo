@@ -128,7 +128,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Rudresh Dixit - 00rudreshdixit@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/shie-ld/fideo)
+Project Link: [https://github.com/shie-ld/fideo](https://github.com/shie-ld/fideo)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
