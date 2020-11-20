@@ -118,7 +118,7 @@ OPTIONS
                 eg. -o /home/user/video.mp4
                 
 -f | --framerate : Specify the encoding and decoding framerate of video. Default is 24.
-                   Must be integer.
+                   Must be integer. Encoding and Decoding should have the same framerate.
                 
 ```
 
