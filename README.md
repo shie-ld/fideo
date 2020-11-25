@@ -1,9 +1,25 @@
-[![Contributors][contributors-shield]]
-[![Forks][forks-shield]]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]]
-[![MIT License][license-shield]]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+
+  <h3 align="center">Fideo</h3>
+
+  <p align="center">
+    Encodes any file to a video
+    <br />
+    <br />
+    <a href="https://github.com/shie-ld/fideo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/shie-ld/fideo/issues">Request Feature</a>
+  </p>
+</p>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -62,7 +78,7 @@ Or you can just have python3 installed on your machine and run `main.py` with pr
 * path.py
 * ffmpeg-python
 
-After installing anaconda, run after jumping to the `src` directory 
+After installing anaconda, run in the `src` directory : 
 ```sh
 pip install -r requirements.txt
 ```
@@ -81,7 +97,10 @@ pip install -r requirements.txt
 3. Run the ipython notebook in `src` folder 
 
 Don't forget to put in the filename you want to encode in `encode_file` function in the last of the notebook. Check current directory and viola, you have encoded the file to video.
-                                            **OR**  
+
+<p align="center">
+                                            **OR** 
+ </p>
                                              
 4. Hit `python3 main.py [options] <arguments>` with [proper options and arguments](#usage) and you are good to go.
 
@@ -167,11 +186,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Rudresh Dixit - 00rudreshdixit@gmail.com
 
+Nitin Yadav - nitin3299@gmail.com
+
+Felix Toppo - rtoppo99@gmail.com
+
+
 Project Link: [https://github.com/shie-ld/fideo](https://github.com/shie-ld/fideo)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/shie-ld/fideo.svg?style=flat-square
 [contributors-url]: https://github.com/shie-ld/fideo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/shie-ld/fideo.svg?style=flat-square
@@ -181,5 +204,12 @@ Project Link: [https://github.com/shie-ld/fideo](https://github.com/shie-ld/fide
 [issues-shield]: https://img.shields.io/github/issues/shie-ld/fideo.svg?style=flat-square
 [issues-url]: https://github.com/shie-ld/fideo/issues
 [license-shield]: https://img.shields.io/github/license/shie-ld/fideo.svg?style=flat-square
-[license-url]: https://github.com/shie-ld/fideo/blob/main/LICENSE
-[product-screenshot]: images/screenshot.png
+[license-url]: https://github.com/shie-ld/textwritten/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/rudresh-dixit-11a15618a/
+
+
+
+
+
+
