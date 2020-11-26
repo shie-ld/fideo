@@ -41,8 +41,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align='center'>
-![Project Screen Shot](../main/src/image/ss1.png)
+<p align="center">
+![Project Screen Shot](./src/image/ss1.png)
 </p>
 
 Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
@@ -121,10 +121,6 @@ decode_file('OUTFILE.mp4', 'OUT.zip')
 which should come out to be an exact copy of `file.zip`. You can verify that by comparing the two files.
 
 
-<p align='center>
-![Project Screen Shot1](../main/src/image/ss.png)
-</p>
-
 
 ### Using Command Line:
 ```sh
@@ -182,7 +178,9 @@ Input #0, image2, from './inframes/frame_%d.png':
     Stream #0:0: Video: png, monob(pc), 854x480, 25 tbr, 25 tbn, 25 tbc
 
 ```
-
+<p align="center">
+  **OR**
+ </p>
 
 ```sh
 bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
