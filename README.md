@@ -41,9 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
-![Project Screen Shot](./src/image/ss1.png)
-</p>
+![Project Screenshot](./src/image/ss1.png)
 
 Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
 
