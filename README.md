@@ -41,9 +41,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
-![Project Screen Shot](../main/src/image/ss.png)
-
+<p align='center>
+![Project Screen Shot](../main/src/image/Screenshot from 2020-11-26 05-22-31.png)
+</p>
 
 Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
 
@@ -120,6 +120,12 @@ decode_file('OUTFILE.mp4', 'OUT.zip')
 ```
 which should come out to be an exact copy of `file.zip`. You can verify that by comparing the two files.
 
+
+<p align='center>
+![Project Screen Shot](../main/src/image/ss.png)
+</p>
+
+
 ### Using Command Line:
 ```sh
 OPTIONS
@@ -150,6 +156,73 @@ python3 main.py -e -i infile.zip -f 15 -o video.mp4
 
 # decoding
 python3 main.py -d -i video.mp4 -f 15 -o outfile.mp4 
+
+```
+
+### NOTE:
+
+Due to some issues, you may see a warning when you access the program through command line. Anyways, you can ignore the warnings and the program will run fine.
+
+
+```sh
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+ffmpeg version n4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix= --prefix=/usr --disable-debug --disable-doc --disable-static --enable-cuda --enable-cuda-sdk --enable-cuvid --enable-libdrm --enable-ffplay --enable-gnutls --enable-gpl --enable-libass --enable-libfdk-aac --enable-libfontconfig --enable-libfreetype --enable-libmp3lame --enable-libnpp --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libopus --enable-libpulse --enable-sdl2 --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libv4l2 --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libxcb --enable-libxvid --enable-nonfree --enable-nvenc --enable-omx --enable-openal --enable-opencl --enable-runtime-cpudetect --enable-shared --enable-vaapi --enable-vdpau --enable-version3 --enable-xlib
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Input #0, image2, from './inframes/frame_%d.png':
+  Duration: 00:00:00.08, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, monob(pc), 854x480, 25 tbr, 25 tbn, 25 tbc
+
+```
+
+
+```sh
+bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+ffmpeg version n4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix= --prefix=/usr --disable-debug --disable-doc --disable-static --enable-cuda --enable-cuda-sdk --enable-cuvid --enable-libdrm --enable-ffplay --enable-gnutls --enable-gpl --enable-libass --enable-libfdk-aac --enable-libfontconfig --enable-libfreetype --enable-libmp3lame --enable-libnpp --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libopus --enable-libpulse --enable-sdl2 --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libv4l2 --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libxcb --enable-libxvid --enable-nonfree --enable-nvenc --enable-omx --enable-openal --enable-opencl --enable-runtime-cpudetect --enable-shared --enable-vaapi --enable-vdpau --enable-version3 --enable-xlib
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+  Duration: 00:00:00.08, start: 0.000000, bitrate: 29530 kb/s
+    Stream #0:0(und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuvj444p(pc), 854x480, 29687 kb/s, 24 fps, 24 tbr, 12288 tbn, 48 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+Stream mapping:
+  Stream #0:0 (h264) -> fps
+  fps -> Stream #0:0 (png)
+Press [q] to stop, [?] for help
+[swscaler @ 0x56482c82f3c0] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to './outframes/frame_%d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+    Stream #0:0: Video: png, rgb24, 854x480, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.91.100 png
+frame=    2 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.08 bitrate=N/A speed=0.505x    
+video:513kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
 
 ```
 
@@ -205,11 +278,6 @@ Project Link: [https://github.com/shie-ld/fideo](https://github.com/shie-ld/fide
 [issues-url]: https://github.com/shie-ld/fideo/issues
 [license-shield]: https://img.shields.io/github/license/shie-ld/fideo.svg?style=flat-square
 [license-url]: https://github.com/shie-ld/textwritten/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/rudresh-dixit-11a15618a/
-
-
-
 
 
 
