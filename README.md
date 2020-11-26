@@ -41,8 +41,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align='center>
-![Project Screen Shot](../main/src/image/Screenshot from 2020-11-26 05-22-31.png)
+<p align='center'>
+![Project Screen Shot](../main/src/image/ss1.png)
 </p>
 
 Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
@@ -122,7 +122,7 @@ which should come out to be an exact copy of `file.zip`. You can verify that by 
 
 
 <p align='center>
-![Project Screen Shot](../main/src/image/ss.png)
+![Project Screen Shot1](../main/src/image/ss.png)
 </p>
 
 
