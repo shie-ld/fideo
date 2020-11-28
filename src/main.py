@@ -59,7 +59,7 @@ def rm_dir_content(dir):
 # making the setup
 def encoding_setup():
     # directory to store intermediate frames to make video file 
-    inframes = glob.glob('./inframes')
+    inframes = './inframes'
 
     # if inframes does not exist, create it
     if not os.path.exists(inframes):
@@ -133,7 +133,7 @@ def generate_frames(bitarray):
         image = Image.new("1", (RESOLUTION[1], RESOLUTION[0]))
         
         image.putdata(pixels)
-        image.save(glob.glob("./inframes/" + "frame_" + str(frame_num) + ".png"))
+        image.save("./inframes/" + "frame_" + str(frame_num) + ".png")
 #         print("Generated frame: " + str(frame_num))
         
         del pixels
@@ -150,14 +150,14 @@ def generate_video(OUTPUT, FRAMERATE):
     
     (
         ffmpeg
-        .input(glob.glob('./inframes/frame_%d.png'))
+        .input('./inframes/frame_%d.png')
         .filter('fps', fps=FRAMERATE, round='up')
         .output(OUTPUT)
         .run()
     )
 #     os.system('ffmpeg -framerate 24 -i ./inframes/frame_%d.png output.mp4')
     
-    shutil.rmtree(glob.glob('./inframes'))
+    shutil.rmtree('./inframes')
     print("Successfully generated video file")
 
 
@@ -178,7 +178,7 @@ def generate_video(OUTPUT, FRAMERATE):
 # making the setup
 def decoding_setup():
     # directory to store intermediate frames to make video file 
-    outframes = glob.glob('./outframes')
+    outframes = './outframes'
 
     # first removing the directory if it contains anything
     if(os.path.isdir(outframes)):
@@ -193,7 +193,7 @@ def convert_video_to_frames(INPUT, FRAMERATE):
         ffmpeg
         .input(INPUT)
         .filter('fps', fps=FRAMERATE, round='down')
-        .output(glob.glob('./outframes/frame_%d.png'))
+        .output('./outframes/frame_%d.png')
         .run()
     )
     
@@ -232,7 +232,7 @@ def get_bits_from_video(videopath, FRAMERATE):
     for image in sorted(glob.glob("./outframes/*.png")):
         bits += convert_image_to_bits(image)
     
-    shutil.rmtree(glob.glob('./outframes'))
+    shutil.rmtree('./outframes')
     print("Successfully retrieved bits from video file")
     
     return bits
@@ -343,4 +343,3 @@ if(__name__ == '__main__'):
 	
 	
 	
-
