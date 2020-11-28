@@ -3,5 +3,7 @@ Pillow
 glob3
 path.py
 ffmpeg-python
+numpy
+argparse
 
 
