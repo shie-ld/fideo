@@ -1,6 +1,6 @@
 bitstring
 Pillow
-glob3
+glob2
 path.py
 ffmpeg-python
 numpy
