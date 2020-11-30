@@ -253,11 +253,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Rudresh Dixit - 00rudreshdixit@gmail.com
+Rudresh Dixit -> 00rudreshdixit@gmail.com
 
-Nitin Yadav - nitin3299@gmail.com
+Nitin Yadav -> nitin3299@gmail.com
 
-Felix Toppo - rtoppo99@gmail.com
+Felix Toppo -> rtoppo99@gmail.com
 
 
 Project Link: [https://github.com/shie-ld/fideo](https://github.com/shie-ld/fideo)
