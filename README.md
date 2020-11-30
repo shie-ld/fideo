@@ -72,7 +72,7 @@ Or you can just have python3 installed on your machine and run `main.py` with pr
 
 * bitstring
 * Pillow
-* glob3
+* glob2
 * path.py
 * ffmpeg-python
 
