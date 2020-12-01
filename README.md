@@ -255,7 +255,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Rudresh Dixit -> 00rudreshdixit@gmail.com
 
-Nitin Yadav -> nitin3299@gmail.com
+Nitin Yadav -> nitinyadav3299@gmail.com
 
 Felix Toppo -> rtoppo99@gmail.com
 
