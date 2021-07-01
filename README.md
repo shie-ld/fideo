@@ -146,7 +146,7 @@ python3 main.py -d -i video.mp4 -f 15 -o outfile.mp4
 
 ## Documentation:
 
-See the [docs](./docs/docs.md).
+See the [main.py](./src/main.py).
 
 ### NOTE:
 
