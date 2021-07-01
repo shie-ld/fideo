@@ -34,6 +34,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Documentation](#documentation)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -142,6 +143,10 @@ python3 main.py -e -i infile.zip -f 15 -o video.mp4
 python3 main.py -d -i video.mp4 -f 15 -o outfile.mp4 
 
 ```
+
+## Documentation:
+
+See the [docs](./docs/docs.md).
 
 ### NOTE:
 
