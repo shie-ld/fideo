@@ -8,6 +8,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+	<a href="https://github.com/shie-ld/fideo">
+    	<img src="images/logo.jpg" alt="Logo" width="80" height="80">
+  	</a>
 
   <h3 align="center">Fideo</h3>
 
@@ -41,18 +44,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Project Screenshot](./src/image/ss1.png)
-
-Hey fellos, have you ever wondered that in this age of cloud, where you want to fetch anything at anytime from anywhere from your personal cloud storage, you can do it for free, as of now, without bothering to spend a single penny from your pocket. 
-
 This project is aimed at:
 * Encoding any file - pdf, image, zip archive, anything to a video
 * Uploading that video to YouTube, as it provides us free umlimited cloud storage of videos
 * Downloading that video anywhere and decoding back it into our original file
 
-So in short, we are going to exploit the unlimited free cloud storage of videos provided by YouTube as our cloud backup of files. 
+**So in short, we are going to exploit the unlimited free cloud storage of videos provided by YouTube as our cloud backup of files.**
 
-This is gonna be an short and interesting project with documentation at every step to help you in understanding what program does, and if you wish, you can change it as you want so it does computing what you wish, not what is decided by me.
 
 ### Built With
 
@@ -64,19 +62,11 @@ This is gonna be an short and interesting project with documentation at every st
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Grab a python3 distribution and run the source code with the help of jupyter notebook. Both of these get set up if you install anaconda distribution on your system.
-
-Or you can just have python3 installed on your machine and run `main.py` with proper options and arguments right from your terminal.
+Grab a `python3` distribution and run the source code in `jupyter notebook` / `terminal`. You can just have python3 installed on your machine and run `main.py` with proper options and arguments right from your `terminal`, rather than using `jupyter notebook`.
 
 ### Prerequisites
 
-* bitstring
-* Pillow
-* glob2
-* path.py
-* ffmpeg-python
 
-After installing anaconda, run in the `src` directory : 
 ```sh
 pip install -r requirements.txt
 ```
