@@ -46,7 +46,7 @@
 ## About The Project
 
 This project is aimed at:
-* Encoding any file - pdf, image, zip archive, anything to a video
+* Encoding any file - pdf, image, zip archive, anything to a video, like [this](https://www.youtube.com/watch?v=2LBsJG6uoew) one.
 * Uploading that video to YouTube, as it provides us free umlimited cloud storage of videos
 * Downloading that video anywhere and decoding back it into our original file
 
